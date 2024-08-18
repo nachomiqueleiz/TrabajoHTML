@@ -1,0 +1,162 @@
+<style>
+    .tabla{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th,
+    td {
+        border: 1px solid black;
+    }
+    span{
+        background-color: aqua;
+        text-decoration:underline;
+        font-weight: bold;
+
+    }
+</style>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Practico N1: HTML</title>
+</head>
+
+<body>
+    <!-- Encabezado Principal -->
+    <header>
+        <h1>Encabezado Principal</h1>
+        <nav>
+            <ul>
+                <li> <a href="#estructura">Estructura</a> </li>
+                <li> <a href="#multimedia">Multimedia</a> </li>
+                <li> <a href="#formulario">Formulario</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="estructura">
+            <h2>1. Estructura Basica del Documento HTML</h2>
+            <p>
+                Este documento HTML tiene una estructura basica que incluye la declaracion de DOCTYPE, etiquetas de
+                metadatos y un titulo.
+            </p>
+        </section>
+
+        <section>
+            <h2>2. Encabezado y Propiedades del Texto</h2>
+            <p style="font-weight:bold">
+                Esto es un texto en negrita
+            </p>
+            <p style="font-style:italic">
+                Este es un texto en cursiva
+            </p>
+            <p style="text-decoration:underline">
+                Este es un texto subrayado
+            </p>
+            <h1>Este es un encabezado H1</h1>
+            <h2>Este es un encabezado H2</h2>
+            <h3>Este es un encabezado H3</h3>
+            <h4>Este es un encabezado H4</h4>
+            <h5>Este es un encabezado H5</h5>
+            <h6>Este es un encabezado H6</h6>
+        </section>
+
+        <section>
+            <h2>3. Divisiones y Agrupacion de Contenido</h2>
+            <div>
+                <h3>DIV 1</h3>
+                <p>Contenido de la <span>primera seccion</span> agrupada en un div</p>
+            </div>
+            <div>
+                <h3>DIV 2</h3>
+                <p>Contenido de la <span>segunda seccion</span> agrupada en un div</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>4. Enlaces y Listas</h2>
+            <p>Este es el <a href="https://www.youtube.com" target="_blank">sitio web</a> de Youtube</p>
+            <div>
+                <p>Enlaces internos:
+                <ul>
+                    <li>
+                        <a href="#estructura">Ir a Estructura</a>
+                    </li>
+                    <li>
+                        <a href="#multimedia">Ir a Multimedia</a>
+                    </li>
+                    <li>
+                        <a href="#formulario">Ir a Formulario</a>
+                    </li>
+                </ul>
+                </p>
+            </div>
+            <div>
+                <p>
+                Lista Desordenada:
+                <ul>
+                    <li>Primer item de una lista desordenada</li>
+                    <li>Segundo item de una lista desordenada</li>
+                </ul>
+                Lista Ordenada:
+                <ol>
+                    <li>Primer item de una lista ordenada</li>
+                    <li>Segundo item de una lista ordenada</li>
+                </ol>
+                </p>
+            </div>
+        </section>
+
+        <section id="multimedia">
+            <h2>5. Elementos Multimedia</h2>
+                <img src="https://apollohou.com/wp-content/uploads/img_9027.jpg"
+                    width="460px" height="215px" alt="Oppenheimer">
+                <video src="video\oppen.mp4"
+                 controls width="460px" height="263px" alt="Entrevista a Oppenheimer"></video>
+                <audio src="https://us-tuna-sounds-files.voicemod.net/9ddf9a4f-c78a-4993-9388-df86596787d5-1692300360861.ogg" controls alt="Oppenheimer Theme Song"></audio>
+        </section>
+
+        <section>
+            <h2>6. Tablas</h2>
+            <table class="tabla">
+                <thead>
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dato 1</td>
+                        <td>Dato 2</td>
+                    </tr>
+                    <tr>
+                        <td>Dato 3</td>
+                        <td>Dato 4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="formulario">
+            <h2>7. Formularios</h2>
+            <form>
+                <label>Nombre:</label>
+                <input type="text">
+                <label>Email:</label>
+                <input type="email">
+                <label>Mensaje:</label>
+                <textarea></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <footer>
+            <p>2024 Trabajo Practico de HTML</p>
+        </footer>
+    </main>
+</body>
+
+</html>
