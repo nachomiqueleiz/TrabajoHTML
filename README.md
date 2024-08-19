@@ -2,4 +2,4 @@ Para la correcta visualizacion del trabajo se debe crear una carpeta con el .htm
 
 -- Se uso este video para poder introducir un video distinto a uno generico. -- 
 
-Luego de instalar se debe abrir el archivo index.html en un navegador para la visualizacion de la pagina o ese mismo archivo en Visual Studio Code para la revision del codigo.
+Luego de instalar lo necesario, se debe abrir el archivo index.html en un navegador para la visualizacion de la pagina o en Visual Studio Code para la revision del codigo.
